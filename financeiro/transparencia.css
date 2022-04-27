@@ -78,34 +78,12 @@ header{
 }
 
 .principal{
-    background-image: url('assets/img/background.png');
-    height: 60vh;
+    background-color: #ffd900;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.principal h1{
-    color: white;
-    font-size: 45px;
-}
-
-.principal .link-sobre-nos a{
-    color: #000;
-    padding: 10px 18px;
-    display: inline-block;
-    background-color: white;
-    border-radius: 3px;
-    margin-top: 20px;
-    transition: 200ms;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.principal .link-sobre-nos a:hover{
-    color: #000;
-    background-color: #FAF806;
 }
 
 .atuacao{
@@ -126,14 +104,19 @@ header{
     padding-top: 2%;
 }
 
-.text-home h1{
+.text-home h1, h3{
     text-align: center;
     font-size: 40px;
 }
 
 .text-home p{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
+}
+
+.Titulo{
+    color: #ffd900;
+    /* -webkit-text-stroke: 1px rgb(255, 187, 0); */
 }
 
 #myFooter {
@@ -223,8 +206,8 @@ header{
 }
 
 #myFooter .btn {
-    color: white;
-    background-color: #d84b6b;
+    color: rgb(0, 0, 0);
+    background-color: #FAF806;
     border-radius: 20px;
     border: none;
     width: 150px;
@@ -253,3 +236,38 @@ header{
 .arrow{
     width: 5%;
 }
+
+
+.right-login{
+    width: 70vw;
+    height: 30vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login h1{
+    color: #000000;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    padding: 30px 35px;
+    background: #ffd900;
+    border-radius: 20px;
+}
+
+
