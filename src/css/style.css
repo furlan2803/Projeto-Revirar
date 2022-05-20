@@ -457,11 +457,10 @@ header{
 .imgSpende {
     width: 80%;
 } */
+
+
 /* --- PÁGINA  TRANSPARÊNCIA --- */
 
-:root {
-    --bs-blue: #68be65;
-}
 .text-home-financeiro{
     width: 70%;
     margin: 0 auto;
@@ -566,6 +565,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.principal-financeiro{
+    background-image: url('../assets/img/background-finance.png');
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
 
 /* --- PÁGINA  CONTATO --- */
