@@ -64,8 +64,6 @@ npm start
 5. Agora você pode acessar a aplicação através do link http://localhost:81/ 
 6. O servidor está online.
 
-````
-
 ## 🗃 Histórico de lançamentos
 
 * 0.0.1 - 29/04/2022
