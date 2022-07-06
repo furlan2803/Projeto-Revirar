@@ -64,10 +64,6 @@ npm start
 5. Agora você pode acessar a aplicação através do link http://localhost:81/ 
 6. O servidor está online.
 
-
-```
-
-3. No arquivo utilizado para subir a aplicação, defina a porta padrão de execução para "81".
 ````
 
 ## 🗃 Histórico de lançamentos
